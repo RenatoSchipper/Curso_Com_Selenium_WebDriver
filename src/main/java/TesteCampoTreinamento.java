@@ -24,7 +24,7 @@ public class TesteCampoTreinamento {
 		driver.get("file:///" + System.getProperty("user.dir") + "/src/main/resources/componentes.html");
 		dsl = new DSL(driver);
 	}
-	
+	 
 	@After
 	public void finaliza(){
 //		driver.quit();

@@ -23,7 +23,7 @@ public class TesteCadastro {
 	public void finaliza(){
 		driver.quit();
 	}
-
+ 
 	@Test
 	public void deveRealizarCadastroComSucesso(){
 		page.setNome("Renato");

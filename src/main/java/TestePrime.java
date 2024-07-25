@@ -40,5 +40,6 @@ public class TestePrime {
 		dsl.selecionarComboPrime("j_idt248:option_items", "Option3");
 //		dsl.clicarNoCheck("//*[@id='j_idt248:option_items']//li[.='Option2']");
 		Assert.assertEquals("Option3", dsl.obterTexto("j_idt248:option"));
+		
 	}
 }
